@@ -15,13 +15,17 @@ public class Stage {
 
     public void setDateDebut(LocalDateTime dateDebut){
 
-        dateDebut = LocalDateTime.now();
+        if( dateDebut != null){
+            this.dateDebut = dateDebut;
+        }
 
     }
 
     public void setDateFin(LocalDateTime dateFin){
 
-        dateFin = LocalDateTime.now();
+        if(dateFin != null){
+            this.dateFin = dateFin;
+        }
     }
 
     public String getNom(){return this.nom;}
