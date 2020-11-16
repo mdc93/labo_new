@@ -1,6 +1,11 @@
-public class StageList {
+import java.time.LocalDateTime;
 
-    private :
+public class StageList extends Stage {
 
-        
+    public void ajouteStage(String nom, LocalDateTime dateDebut, LocalDateTime dateFin){
+
+
+    }
+
+
 }
